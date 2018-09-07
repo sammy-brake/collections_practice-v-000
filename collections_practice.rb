@@ -70,7 +70,7 @@ def add_s(array)
   array.each do |word|
     word << "s"
   end 
-
+array.insert(2, "feet")
 
 return array 
 end 
